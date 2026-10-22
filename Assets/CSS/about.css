@@ -10,11 +10,12 @@
   gap: 2.5rem;
   align-items: center;
 }
-.about-image {
+.about-logo {
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: var(--shadow);
+  border: 10px solid rgba(0, 0, 0, 0.12);
 }
+
 .about-image img {
   width: 100%;
   height: auto;
@@ -24,10 +25,14 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
+   border-left: 4px solid #dc2626;
+  padding-left: 1rem;
 }
 .about-content p {
   margin-bottom: 1.5rem;
-  color: var(--text-light);
+  color: #666873;
+  line-height: 1.8;
+ 
 }
 .about-btn {
   display: inline-block;

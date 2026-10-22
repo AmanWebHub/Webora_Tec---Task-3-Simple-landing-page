@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/CSS/navbar.css">
+    <link rel="stylesheet" href="./Assets/CSS/hero.css">
+    <link rel="stylesheet" href="./Assets/CSS/services.css">
+    <link rel="stylesheet" href="./Assets/CSS/about.css">
+    <link rel="stylesheet" href="./Assets/CSS/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html" class="navbar-logo">Creative Designs </a>
+
+        <button class="navbar-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="navbar-links">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="navbar-links" id="navbar-links">
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="about.html">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="hero-title">Creative Designs <span class=" highlight">That Captivate</span></h1>
+            <p class="hero-subtitle">We create impactful advertisements, banners, posters, certificates, animated
+                invitations,
+                and more.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="hero-btn" data-aos="fade-up" data-aos-delay="200">View Our Services</a>
+                <a href="#contact" class="hero-btn hero-btn-secondary" data-aos="fade-up" data-aos-delay="300">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Services Section -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Our Services</h2>
+
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon">🖼️</div>
+          <h3 class="service-title">Banners</h3>
+          <p>Custom designed banners for any purpose, digital or print. Perfect for events, promotions, and branding.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon">📰</div>
+          <h3 class="service-title">Posters</h3>
+          <p>Creative poster designs to showcase your brand or event. Eye-catching and effective communication.</p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon">🏆</div>
+          <h3 class="service-title">Certificates</h3>
+          <p>Professional certificates for events, workshops, and courses. Elegant designs that recognize achievement.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon">🎬</div>
+          <h3 class="service-title">Video & Invitations</h3>
+          <p>Animated invites and promotional videos to engage your audience. Memorable and shareable content.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image" data-aos="fade-right">
+          <img src="assets/images/logo.jpg" alt="Spotlight Ads Team"
+            onerror="this.src='https://via.placeholder.com/600x400?text=Spotlight+Team'">
+        </div>
+
+        <div class="about-content" data-aos="fade-left">
+          <h2>About Us</h2>
+          <p>We are a team of creative professionals dedicated to bringing your ideas to life through stunning visuals and compelling design.</p>
+          <p>With years of experience in the creative industry, we've developed a keen eye for detail and a passion for
+            delivering exceptional results for our clients.</p>
+          <a href="#contact" class="about-btn">Work With Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <script src="./Assets/js/index.js"></script>
+
+
+
+</body>
+
+</html>

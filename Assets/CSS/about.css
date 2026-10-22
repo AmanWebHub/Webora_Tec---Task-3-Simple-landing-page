@@ -1,0 +1,43 @@
+/* =====================
+   About Section
+===================== */
+.about {
+  background: var(--secondary);
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  align-items: center;
+}
+.about-image {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.about-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.about-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.about-content p {
+  margin-bottom: 1.5rem;
+  color: var(--text-light);
+}
+.about-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #dc2626;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+}
+.about-btn:hover {
+  background: #b91c1c;
+}

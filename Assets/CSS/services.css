@@ -5,7 +5,6 @@
 
 .services {
   position: relative;
-  background: var(--secondary);
   overflow: hidden;
   background-color: #f8f9fa;
 }
